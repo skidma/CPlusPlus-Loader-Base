@@ -5,13 +5,14 @@
 // [+]  it a try if you want.
 
 // #Notes
-// [+]  this was made in less than an hour so expect issues i didn't really do any testing
-// [+]  if you're having trouble contact me on tele @systembootloop
-// [+]  i'll also update this source frequently and will create an archive for different versions in the future.
+// [>]  this was made in less than an hour so expect issues i didn't really do any testing
+// [>]  if you're having trouble contact me on tele @systembootloop
+// [>]  i'll also update this source frequently and will create an archive for different versions in the future.
 
 // #Source
-// [+]  Source Version -> [v1.1]
-// [+]  Created by Themida
+// [*]  Source Version -> [v1.2]
+// [*]  Last Updated -> [10/30/2025]
+// [*]  Created by Themida
 
 // #Loader
 #define _CRT_SECURE_NO_WARNINGS
@@ -44,7 +45,7 @@ Authenticate:
     crsr(), indetion();
     LI_FN(SetConsoleTitleA)(E(("Loader Base"))); // change to ur loader name
     std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Loader Base"));
-    std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Loader Version (v1.1.2)")), LI_FN(Sleep)(1500);
+    std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Loader Version (v1.1.3)")), LI_FN(Sleep)(1500);
     std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Build Version (dFgHjKlMnP)"));
     std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("License: ")), std:: cin >> user_license;
     if (user_license == "d9oz02p6n5xm7u23") { // license
@@ -63,7 +64,7 @@ Base:
     LI_FN(system)(E("cls"));
     indetion();
     std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Loader Base"));
-    std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Loader Version (v1.1.2)")), LI_FN(Sleep)(1500);
+    std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Loader Version (v1.1.3)")), LI_FN(Sleep)(1500);
     std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("DEBUG"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Build Version (dFgHjKlMnP)\n"));
 
     std::cout << dye::aqua((char*)E("\n  [")), std::cout << E("F1"), std::cout << dye::aqua((char*)E("] ")), std::cout << (E("Temporary Spoofing"));
